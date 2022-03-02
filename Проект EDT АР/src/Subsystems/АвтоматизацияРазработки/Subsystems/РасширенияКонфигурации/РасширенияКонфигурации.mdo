@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f4d766bf-0789-46ca-ade0-d589e65f9bf6">
+  <name>РасширенияКонфигурации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расширения конфигурации</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.РасширенияКонфигурации</content>
+  <parentSubsystem>Subsystem.АвтоматизацияРазработки</parentSubsystem>
+</mdclass:Subsystem>

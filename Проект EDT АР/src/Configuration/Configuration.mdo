@@ -12,6 +12,7 @@
   <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="b3427e4a-72b7-4969-8b8b-8f9b08a2cb78"/>
   <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="18069bae-e042-4197-8899-4e0b30eeffae"/>
   <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="7e34dd96-440e-4e6c-9d01-59af4e203976"/>
+  <configurationExtensionCompatibilityMode>8.3.20</configurationExtensionCompatibilityMode>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
@@ -45,6 +46,7 @@
   <subsystems>Subsystem.Администрирование</subsystems>
   <subsystems>Subsystem.ПодключаемыеОтчетыИОбработки</subsystems>
   <subsystems>Subsystem.СтандартныеПодсистемы</subsystems>
+  <subsystems>Subsystem.АвтоматизацияРазработки</subsystems>
   <styleItems>StyleItem.ВажнаяНадписьШрифт</styleItems>
   <styleItems>StyleItem.ВладелецФайловШрифт</styleItems>
   <styleItems>StyleItem.ВыполненнаяЗадача</styleItems>
@@ -632,6 +634,7 @@
   <roles>Role.ДобавлениеИзменениеЛичныхШаблоновСообщений</roles>
   <roles>Role.ДобавлениеИзменениеШаблоновСообщений</roles>
   <roles>Role.ЧтениеШаблоновСообщений</roles>
+  <roles>Role.РедактированиеДокументаРасширенияКонфигурации</roles>
   <commonTemplates>CommonTemplate.ДанныеПечатиОбщиеРеквизиты</commonTemplates>
   <commonTemplates>CommonTemplate.ДанныеПечатиРегистрСимволов</commonTemplates>
   <commonTemplates>CommonTemplate.ИнструкцияПоСозданиюФаксимильнойПодписиИПечати</commonTemplates>
@@ -1504,6 +1507,7 @@
   <documents>Document.ТелефонныйЗвонок</documents>
   <documents>Document.ЭлектронноеПисьмоВходящее</documents>
   <documents>Document.ЭлектронноеПисьмоИсходящее</documents>
+  <documents>Document.РасширенияКонфигурации</documents>
   <documentJournals>DocumentJournal.Взаимодействия</documentJournals>
   <enums>Enum.ВажностьПроблемыУчета</enums>
   <enums>Enum.ВариантыВажностиВзаимодействия</enums>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3f055465-f8b3-4e4f-9e92-3bdc57d53f4a">
+  <producedTypes>
+    <objectType typeId="db6ee8cc-2278-4279-ae90-02075594596a" valueTypeId="8bb0a3af-9e93-48c6-ab33-bf096edcc3ff"/>
+    <refType typeId="487cde9f-404d-4be3-9b7a-fe857dfb25ae" valueTypeId="af3a1863-ccc7-4d47-9a26-efa624dd88c8"/>
+    <selectionType typeId="5af6a9c5-6bfa-408a-b6f6-5c1cd033c35e" valueTypeId="51a71362-3dae-4e21-ab8b-3a08bb98ec1a"/>
+    <listType typeId="27a11b19-d01e-4dda-8120-a5cd632228fb" valueTypeId="22a661c6-5999-4151-a8d5-79534ae558f0"/>
+    <managerType typeId="b73bf07b-fab5-4a40-ad2f-963d13950ec3" valueTypeId="01d90270-dfcd-4498-9496-c4a05da27f93"/>
+  </producedTypes>
+  <name>РасширенияКонфигурации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расширения конфигурации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.РасширенияКонфигурации.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>10</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <numberPeriodicity>Year</numberPeriodicity>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <posting>Deny</posting>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="9739db6e-6101-4901-9384-95aabd2e72ca">
+    <name>ОписаниеИзменений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание изменений</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1000</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="202ce815-cb3a-4f39-81c4-6cd7a57ee0c4">
+    <name>ИмяРасширения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя расширения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="705c0484-541e-45fb-ae9f-6b3e6b6aa531">
+    <name>АвторРасширения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор расширения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>
